@@ -1,0 +1,416 @@
+MIME-Version: 1.0
+Date: Wed, 11 Mar 2026 01:28:53 -0400
+Message-ID: <CAL-08fP97zcOPd2v2PD_XLopr2gE7BKeLCL9hYGxoCO_RzDFTg@mail.gmail.com>
+Subject: .
+From: Alijah Petion <338976@students.nccvt.k12.de.us>
+To: Alijah Petion <338976@students.nccvt.k12.de.us>
+Content-Type: multipart/alternative; boundary="0000000000006edb7b064cb8e9b8"
+
+--0000000000006edb7b064cb8e9b8
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<!DOCTYPE html>
+<html lang=3D"en">
+<head>
+<meta charset=3D"UTF-8">
+<meta name=3D"viewport" content=3D"width=3Ddevice-width, initial-scale=3D1.=
+0">
+<title>Get Right Resellers</title>
+<style>
+
+/* BODY & FONTS */
+body{
+margin:0;
+font-family:'Impact', sans-serif;
+background:black;
+color:white;
+overflow-x:hidden;
+}
+
+/* PASSWORD PAGE */
+#login{
+height:100vh;
+display:flex;
+align-items:center;
+justify-content:center;
+flex-direction:column;
+background:black;
+}
+#login input{
+padding:12px;
+margin-top:15px;
+border:none;
+width:220px;
+text-align:center;
+}
+#login button{
+margin-top:15px;
+padding:10px 25px;
+background:white;
+border:none;
+cursor:pointer;
+font-weight:bold;
+}
+
+/* MAIN SITE */
+#site{display:none;}
+
+/* HEADER */
+header{
+text-align:center;
+padding:30px;
+font-size:42px;
+letter-spacing:6px;
+text-shadow:0 0 20px white;
+}
+
+/* ANIMATED HERO */
+.hero{
+height:100vh;
+background:url("https://images.unsplash.com/photo-1519741497674-61148186355=
+2")
+center/cover fixed;
+display:flex;
+align-items:center;
+justify-content:center;
+text-align:center;
+animation:fadeIn 2s ease-in-out;
+}
+.hero h1{
+font-size:80px;
+background:rgba(0,0,0,0.7);
+padding:40px;
+letter-spacing:6px;
+}
+
+/* KEYFRAME FADE IN */
+@keyframes fadeIn{
+0%{opacity:0;}
+100%{opacity:1;}
+}
+
+/* COUNTDOWN TIMER */
+#countdown{
+text-align:center;
+font-size:28px;
+margin:30px;
+letter-spacing:3px;
+color:#00ff88;
+}
+
+/* PRODUCT GRID */
+.products{
+display:flex;
+overflow-x:auto;
+gap:30px;
+padding:40px;
+scroll-behavior:smooth;
+}
+.product{
+min-width:260px;
+background:#111;
+border-radius:12px;
+overflow:hidden;
+flex-shrink:0;
+transition:.3s;
+}
+.product:hover{
+transform:scale(1.05);
+box-shadow:0 0 30px #00ff88;
+}
+.product img{
+width:100%;
+height:300px;
+object-fit:cover;
+}
+.product h3{text-align:center;margin:10px;font-size:22px;}
+.price{text-align:center;color:#00ff88;font-weight:bold;font-size:20px;}
+.buy{
+display:block;
+text-align:center;
+margin:15px;
+padding:12px;
+background:#00ff88;
+color:black;
+text-decoration:none;
+font-weight:bold;
+border-radius:5px;
+}
+.out{text-align:center;color:red;font-weight:bold;padding-bottom:20px;}
+
+/* FOOTER */
+footer{
+text-align:center;
+padding:40px;
+background:#050505;
+letter-spacing:3px;
+}
+
+</style>
+</head>
+<body>
+
+<!-- PASSWORD -->
+<div id=3D"login">
+<h2>ENTER PASSWORD</h2>
+<input type=3D"password" id=3D"password">
+<button onclick=3D"login()">ENTER</button>
+</div>
+
+<!-- MAIN SITE -->
+<div id=3D"site">
+
+<header>GET RIGHT RESELLERS</header>
+
+<div class=3D"hero">
+<h1>RARE STREETWEAR DROP</h1>
+</div>
+
+<div id=3D"countdown">NEXT DROP IN: <span id=3D"timer">00:00:00</span></div=
+>
+
+<div class=3D"products">
+
+<div class=3D"product">
+<img src=3D"PUT-YOUR-PHOTO.jpg">
+<h3>Designer Hoodie</h3>
+<p class=3D"price">$175</p>
+<a class=3D"buy" href=3D"https://cash.app/$biglij3">BUY</a>
+</div>
+
+<div class=3D"product">
+<img src=3D"PUT-YOUR-PHOTO.jpg">
+<h3>Designer Sneakers</h3>
+<p class=3D"price">$400</p>
+<a class=3D"buy" href=3D"https://cash.app/$biglij3">BUY</a>
+</div>
+
+<div class=3D"product">
+<img src=3D"PUT-YOUR-PHOTO.jpg">
+<h3>Luxury Watch</h3>
+<p class=3D"price">$750</p>
+<a class=3D"buy" href=3D"https://cash.app/$biglij3">BUY</a>
+</div>
+
+<div class=3D"product">
+<img src=3D"PUT-YOUR-PHOTO.jpg">
+<h3>Designer Hat</h3>
+<p class=3D"price">$65</p>
+<p class=3D"out">LOADINGGG...</p>
+</div>
+
+</div>
+
+<footer>
+GET RIGHT RESELLERS =C2=A9 2026
+</footer>
+
+</div>
+
+<script>
+// PASSWORD
+function login(){
+var password=3Ddocument.getElementById("password").value;
+if(password=3D=3D=3D"Youngboy101"){
+document.getElementById("login").style.display=3D"none";
+document.getElementById("site").style.display=3D"block";
+}else{
+alert("Wrong Password");
+}
+}
+
+// COUNTDOWN TIMER
+var countdownDate =3D new Date();
+countdownDate.setHours(countdownDate.getHours() + 12); // next drop in 12
+hours
+var x =3D setInterval(function() {
+var now =3D new Date().getTime();
+var distance =3D countdownDate - now;
+var hours =3D Math.floor((distance % (1000*60*60*24))/(1000*60*60));
+var minutes =3D Math.floor((distance % (1000*60*60))/(1000*60));
+var seconds =3D Math.floor((distance % (1000*60))/1000);
+document.getElementById("timer").innerHTML =3D hours+":"+minutes+":"+second=
+s;
+if(distance < 0){
+clearInterval(x);
+document.getElementById("timer").innerHTML=3D"DROP LIVE!";
+}
+},1000);
+</script>
+
+</body>
+</html>
+
+--0000000000006edb7b064cb8e9b8
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div style=3D"font-size:inherit">&lt;!DOCTYPE html&gt;<br style=3D"font-siz=
+e:inherit">&lt;html lang=3D&quot;en&quot;&gt;<br style=3D"font-size:inherit=
+">&lt;head&gt;<br style=3D"font-size:inherit">&lt;meta charset=3D&quot;UTF-=
+8&quot;&gt;<br style=3D"font-size:inherit">&lt;meta name=3D&quot;viewport&q=
+uot; content=3D&quot;width=3Ddevice-width, initial-scale=3D1.0&quot;&gt;<br=
+ style=3D"font-size:inherit">&lt;title&gt;Get Right Resellers&lt;/title&gt;=
+<br style=3D"font-size:inherit">&lt;style&gt;<br style=3D"font-size:inherit=
+"><br style=3D"font-size:inherit">/* BODY &amp; FONTS */<br style=3D"font-s=
+ize:inherit">body{<br style=3D"font-size:inherit">margin:0;<br style=3D"fon=
+t-size:inherit">font-family:&#39;Impact&#39;, sans-serif;<br style=3D"font-=
+size:inherit">background:black;<br style=3D"font-size:inherit">color:white;=
+<br style=3D"font-size:inherit">overflow-x:hidden;<br style=3D"font-size:in=
+herit">}<br style=3D"font-size:inherit"><br style=3D"font-size:inherit">/* =
+PASSWORD PAGE */<br style=3D"font-size:inherit">#login{<br style=3D"font-si=
+ze:inherit">height:100vh;<br style=3D"font-size:inherit">display:flex;<br s=
+tyle=3D"font-size:inherit">align-items:center;<br style=3D"font-size:inheri=
+t">justify-content:center;<br style=3D"font-size:inherit">flex-direction:co=
+lumn;<br style=3D"font-size:inherit">background:black;<br style=3D"font-siz=
+e:inherit">}<br style=3D"font-size:inherit">#login input{<br style=3D"font-=
+size:inherit">padding:12px;<br style=3D"font-size:inherit">margin-top:15px;=
+<br style=3D"font-size:inherit">border:none;<br style=3D"font-size:inherit"=
+>width:220px;<br style=3D"font-size:inherit">text-align:center;<br style=3D=
+"font-size:inherit">}<br style=3D"font-size:inherit">#login button{<br styl=
+e=3D"font-size:inherit">margin-top:15px;<br style=3D"font-size:inherit">pad=
+ding:10px 25px;<br style=3D"font-size:inherit">background:white;<br style=
+=3D"font-size:inherit">border:none;<br style=3D"font-size:inherit">cursor:p=
+ointer;<br style=3D"font-size:inherit">font-weight:bold;<br style=3D"font-s=
+ize:inherit">}<br style=3D"font-size:inherit"><br style=3D"font-size:inheri=
+t">/* MAIN SITE */<br style=3D"font-size:inherit">#site{display:none;}<br s=
+tyle=3D"font-size:inherit"><br style=3D"font-size:inherit">/* HEADER */<br =
+style=3D"font-size:inherit">header{<br style=3D"font-size:inherit">text-ali=
+gn:center;<br style=3D"font-size:inherit">padding:30px;<br style=3D"font-si=
+ze:inherit">font-size:42px;<br style=3D"font-size:inherit">letter-spacing:6=
+px;<br style=3D"font-size:inherit">text-shadow:0 0 20px white;<br style=3D"=
+font-size:inherit">}<br style=3D"font-size:inherit"><br style=3D"font-size:=
+inherit">/* ANIMATED HERO */<br style=3D"font-size:inherit">.hero{<br style=
+=3D"font-size:inherit">height:100vh;<br style=3D"font-size:inherit">backgro=
+und:url(&quot;<a href=3D"https://images.unsplash.com/photo-1519741497674-61=
+1481863552">https://images.unsplash.com/photo-1519741497674-611481863552</a=
+>&quot;) center/cover fixed;<br style=3D"font-size:inherit">display:flex;<b=
+r style=3D"font-size:inherit">align-items:center;<br style=3D"font-size:inh=
+erit">justify-content:center;<br style=3D"font-size:inherit">text-align:cen=
+ter;<br style=3D"font-size:inherit">animation:fadeIn 2s ease-in-out;<br sty=
+le=3D"font-size:inherit">}<br style=3D"font-size:inherit">.hero h1{<br styl=
+e=3D"font-size:inherit">font-size:80px;<br style=3D"font-size:inherit">back=
+ground:rgba(0,0,0,0.7);<br style=3D"font-size:inherit">padding:40px;<br sty=
+le=3D"font-size:inherit">letter-spacing:6px;<br style=3D"font-size:inherit"=
+>}<br style=3D"font-size:inherit"><br style=3D"font-size:inherit">/* KEYFRA=
+ME FADE IN */<br style=3D"font-size:inherit">@keyframes fadeIn{<br style=3D=
+"font-size:inherit">0%{opacity:0;}<br style=3D"font-size:inherit">100%{opac=
+ity:1;}<br style=3D"font-size:inherit">}<br style=3D"font-size:inherit"><br=
+ style=3D"font-size:inherit">/* COUNTDOWN TIMER */<br style=3D"font-size:in=
+herit">#countdown{<br style=3D"font-size:inherit">text-align:center;<br sty=
+le=3D"font-size:inherit">font-size:28px;<br style=3D"font-size:inherit">mar=
+gin:30px;<br style=3D"font-size:inherit">letter-spacing:3px;<br style=3D"fo=
+nt-size:inherit">color:#00ff88;<br style=3D"font-size:inherit">}<br style=
+=3D"font-size:inherit"><br style=3D"font-size:inherit">/* PRODUCT GRID */<b=
+r style=3D"font-size:inherit">.products{<br style=3D"font-size:inherit">dis=
+play:flex;<br style=3D"font-size:inherit">overflow-x:auto;<br style=3D"font=
+-size:inherit">gap:30px;<br style=3D"font-size:inherit">padding:40px;<br st=
+yle=3D"font-size:inherit">scroll-behavior:smooth;<br style=3D"font-size:inh=
+erit">}<br style=3D"font-size:inherit">.product{<br style=3D"font-size:inhe=
+rit">min-width:260px;<br style=3D"font-size:inherit">background:#111;<br st=
+yle=3D"font-size:inherit">border-radius:12px;<br style=3D"font-size:inherit=
+">overflow:hidden;<br style=3D"font-size:inherit">flex-shrink:0;<br style=
+=3D"font-size:inherit">transition:.3s;<br style=3D"font-size:inherit">}<br =
+style=3D"font-size:inherit">.product:hover{<br style=3D"font-size:inherit">=
+transform:scale(1.05);<br style=3D"font-size:inherit">box-shadow:0 0 30px #=
+00ff88;<br style=3D"font-size:inherit">}<br style=3D"font-size:inherit">.pr=
+oduct img{<br style=3D"font-size:inherit">width:100%;<br style=3D"font-size=
+:inherit">height:300px;<br style=3D"font-size:inherit">object-fit:cover;<br=
+ style=3D"font-size:inherit">}<br style=3D"font-size:inherit">.product h3{t=
+ext-align:center;margin:10px;font-size:22px;}<br style=3D"font-size:inherit=
+">.price{text-align:center;color:#00ff88;font-weight:bold;font-size:20px;}<=
+br style=3D"font-size:inherit">.buy{<br style=3D"font-size:inherit">display=
+:block;<br style=3D"font-size:inherit">text-align:center;<br style=3D"font-=
+size:inherit">margin:15px;<br style=3D"font-size:inherit">padding:12px;<br =
+style=3D"font-size:inherit">background:#00ff88;<br style=3D"font-size:inher=
+it">color:black;<br style=3D"font-size:inherit">text-decoration:none;<br st=
+yle=3D"font-size:inherit">font-weight:bold;<br style=3D"font-size:inherit">=
+border-radius:5px;<br style=3D"font-size:inherit">}<br style=3D"font-size:i=
+nherit">.out{text-align:center;color:red;font-weight:bold;padding-bottom:20=
+px;}<br style=3D"font-size:inherit"><br style=3D"font-size:inherit">/* FOOT=
+ER */<br style=3D"font-size:inherit">footer{<br style=3D"font-size:inherit"=
+>text-align:center;<br style=3D"font-size:inherit">padding:40px;<br style=
+=3D"font-size:inherit">background:#050505;<br style=3D"font-size:inherit">l=
+etter-spacing:3px;<br style=3D"font-size:inherit">}<br style=3D"font-size:i=
+nherit"><br style=3D"font-size:inherit">&lt;/style&gt;<br style=3D"font-siz=
+e:inherit">&lt;/head&gt;<br style=3D"font-size:inherit">&lt;body&gt;<br sty=
+le=3D"font-size:inherit"><br style=3D"font-size:inherit">&lt;!-- PASSWORD -=
+-&gt;<br style=3D"font-size:inherit">&lt;div id=3D&quot;login&quot;&gt;<br =
+style=3D"font-size:inherit">&lt;h2&gt;ENTER PASSWORD&lt;/h2&gt;<br style=3D=
+"font-size:inherit">&lt;input type=3D&quot;password&quot; id=3D&quot;passwo=
+rd&quot;&gt;<br style=3D"font-size:inherit">&lt;button onclick=3D&quot;logi=
+n()&quot;&gt;ENTER&lt;/button&gt;<br style=3D"font-size:inherit">&lt;/div&g=
+t;<br style=3D"font-size:inherit"><br style=3D"font-size:inherit">&lt;!-- M=
+AIN SITE --&gt;<br style=3D"font-size:inherit">&lt;div id=3D&quot;site&quot=
+;&gt;<br style=3D"font-size:inherit"><br style=3D"font-size:inherit">&lt;he=
+ader&gt;GET RIGHT RESELLERS&lt;/header&gt;<br style=3D"font-size:inherit"><=
+br style=3D"font-size:inherit">&lt;div class=3D&quot;hero&quot;&gt;<br styl=
+e=3D"font-size:inherit">&lt;h1&gt;RARE STREETWEAR DROP&lt;/h1&gt;<br style=
+=3D"font-size:inherit">&lt;/div&gt;<br style=3D"font-size:inherit"><br styl=
+e=3D"font-size:inherit">&lt;div id=3D&quot;countdown&quot;&gt;NEXT DROP IN:=
+ &lt;span id=3D&quot;timer&quot;&gt;00:00:00&lt;/span&gt;&lt;/div&gt;<br st=
+yle=3D"font-size:inherit"><br style=3D"font-size:inherit">&lt;div class=3D&=
+quot;products&quot;&gt;<br style=3D"font-size:inherit"><br style=3D"font-si=
+ze:inherit">&lt;div class=3D&quot;product&quot;&gt;<br style=3D"font-size:i=
+nherit">&lt;img src=3D&quot;PUT-YOUR-PHOTO.jpg&quot;&gt;<br style=3D"font-s=
+ize:inherit">&lt;h3&gt;Designer Hoodie&lt;/h3&gt;<br style=3D"font-size:inh=
+erit">&lt;p class=3D&quot;price&quot;&gt;$175&lt;/p&gt;<br style=3D"font-si=
+ze:inherit">&lt;a class=3D&quot;buy&quot; href=3D&quot;<a href=3D"https://c=
+ash.app/$biglij3">https://cash.app/$biglij3</a>&quot;&gt;BUY&lt;/a&gt;<br s=
+tyle=3D"font-size:inherit">&lt;/div&gt;<br style=3D"font-size:inherit"><br =
+style=3D"font-size:inherit">&lt;div class=3D&quot;product&quot;&gt;<br styl=
+e=3D"font-size:inherit">&lt;img src=3D&quot;PUT-YOUR-PHOTO.jpg&quot;&gt;<br=
+ style=3D"font-size:inherit">&lt;h3&gt;Designer Sneakers&lt;/h3&gt;<br styl=
+e=3D"font-size:inherit">&lt;p class=3D&quot;price&quot;&gt;$400&lt;/p&gt;<b=
+r style=3D"font-size:inherit">&lt;a class=3D&quot;buy&quot; href=3D&quot;<a=
+ href=3D"https://cash.app/$biglij3">https://cash.app/$biglij3</a>&quot;&gt;=
+BUY&lt;/a&gt;<br style=3D"font-size:inherit">&lt;/div&gt;<br style=3D"font-=
+size:inherit"><br style=3D"font-size:inherit">&lt;div class=3D&quot;product=
+&quot;&gt;<br style=3D"font-size:inherit">&lt;img src=3D&quot;PUT-YOUR-PHOT=
+O.jpg&quot;&gt;<br style=3D"font-size:inherit">&lt;h3&gt;Luxury Watch&lt;/h=
+3&gt;<br style=3D"font-size:inherit">&lt;p class=3D&quot;price&quot;&gt;$75=
+0&lt;/p&gt;<br style=3D"font-size:inherit">&lt;a class=3D&quot;buy&quot; hr=
+ef=3D&quot;<a href=3D"https://cash.app/$biglij3">https://cash.app/$biglij3<=
+/a>&quot;&gt;BUY&lt;/a&gt;<br style=3D"font-size:inherit">&lt;/div&gt;<br s=
+tyle=3D"font-size:inherit"><br style=3D"font-size:inherit">&lt;div class=3D=
+&quot;product&quot;&gt;<br style=3D"font-size:inherit">&lt;img src=3D&quot;=
+PUT-YOUR-PHOTO.jpg&quot;&gt;<br style=3D"font-size:inherit">&lt;h3&gt;Desig=
+ner Hat&lt;/h3&gt;<br style=3D"font-size:inherit">&lt;p class=3D&quot;price=
+&quot;&gt;$65&lt;/p&gt;<br style=3D"font-size:inherit">&lt;p class=3D&quot;=
+out&quot;&gt;LOADINGGG...&lt;/p&gt;<br style=3D"font-size:inherit">&lt;/div=
+&gt;<br style=3D"font-size:inherit"><br style=3D"font-size:inherit">&lt;/di=
+v&gt;<br style=3D"font-size:inherit"><br style=3D"font-size:inherit">&lt;fo=
+oter&gt;<br style=3D"font-size:inherit">GET RIGHT RESELLERS =C2=A9 2026<br =
+style=3D"font-size:inherit">&lt;/footer&gt;<br style=3D"font-size:inherit">=
+<br style=3D"font-size:inherit">&lt;/div&gt;<br style=3D"font-size:inherit"=
+><br style=3D"font-size:inherit">&lt;script&gt;<br style=3D"font-size:inher=
+it">// PASSWORD<br style=3D"font-size:inherit">function login(){<br style=
+=3D"font-size:inherit">var password=3Ddocument.getElementById(&quot;passwor=
+d&quot;).value;<br style=3D"font-size:inherit">if(password=3D=3D=3D&quot;Yo=
+ungboy101&quot;){<br style=3D"font-size:inherit">document.getElementById(&q=
+uot;login&quot;).style.display=3D&quot;none&quot;;<br style=3D"font-size:in=
+herit">document.getElementById(&quot;site&quot;).style.display=3D&quot;bloc=
+k&quot;;<br style=3D"font-size:inherit">}else{<br style=3D"font-size:inheri=
+t">alert(&quot;Wrong Password&quot;);<br style=3D"font-size:inherit">}<br s=
+tyle=3D"font-size:inherit">}<br style=3D"font-size:inherit"><br style=3D"fo=
+nt-size:inherit">// COUNTDOWN TIMER<br style=3D"font-size:inherit">var coun=
+tdownDate =3D new Date();<br style=3D"font-size:inherit">countdownDate.setH=
+ours(countdownDate.getHours() + 12); // next drop in 12 hours<br style=3D"f=
+ont-size:inherit">var x =3D setInterval(function() {<br style=3D"font-size:=
+inherit">var now =3D new Date().getTime();<br style=3D"font-size:inherit">v=
+ar distance =3D countdownDate - now;<br style=3D"font-size:inherit">var hou=
+rs =3D Math.floor((distance % (1000*60*60*24))/(1000*60*60));<br style=3D"f=
+ont-size:inherit">var minutes =3D Math.floor((distance % (1000*60*60))/(100=
+0*60));<br style=3D"font-size:inherit">var seconds =3D Math.floor((distance=
+ % (1000*60))/1000);<br style=3D"font-size:inherit">document.getElementById=
+(&quot;timer&quot;).innerHTML =3D hours+&quot;:&quot;+minutes+&quot;:&quot;=
++seconds;<br style=3D"font-size:inherit">if(distance &lt; 0){<br style=3D"f=
+ont-size:inherit">clearInterval(x);<br style=3D"font-size:inherit">document=
+.getElementById(&quot;timer&quot;).innerHTML=3D&quot;DROP LIVE!&quot;;<br s=
+tyle=3D"font-size:inherit">}<br style=3D"font-size:inherit">},1000);<br sty=
+le=3D"font-size:inherit">&lt;/script&gt;<br style=3D"font-size:inherit"><br=
+ style=3D"font-size:inherit">&lt;/body&gt;<br style=3D"font-size:inherit">&=
+lt;/html&gt;<br style=3D"font-size:inherit"></div>
+
+--0000000000006edb7b064cb8e9b8--
